@@ -1,0 +1,53 @@
+{
+    "name": "ntf-store",
+    "version": "0.1.0",
+    "author": {
+        "name": "Andrew Colman"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "test": "jest",
+        "test:api": "jest ./src/pages/api",
+        "test:components": "jest ./src/components",
+        "test:features": "jest ./src/features",
+        "pw": "playwright test",
+        "pw:ui": "playwright test --headless",
+        "pw:tdd": "playwright test"
+    },
+    "dependencies": {
+        "@chakra-ui/icons": "^2.0.8",
+        "@chakra-ui/react": "^2.2.8",
+        "@emotion/react": "^11.10.0",
+        "@emotion/styled": "^11.10.0",
+        "@reduxjs/toolkit": "^1.8.5",
+        "axios": "^0.27.2",
+        "framer-motion": "^7.2.0",
+        "metamask-react": "^2.4.0",
+        "next": "^12.2.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.0.2",
+        "swiper": "^8.3.2",
+        "swr": "^1.3.0"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@playwright/test": "^1.25.0",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^14.4.3",
+        "@types/node": "^18.7.9",
+        "@types/react": "^18.0.17",
+        "@types/react-dom": "^18.0.6",
+        "@types/react-redux": "^7.1.24",
+        "autoprefixer": "^10.4.8",
+        "babel-jest": "^28.1.3",
+        "jest": "^28.1.3",
+        "msw": "^0.44.2",
+        "postcss": "^8.4.16",
+        "tailwindcss": "^3.1.8",
+        "typescript": "^4.7.4"
+    }
+}
